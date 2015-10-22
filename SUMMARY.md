@@ -6,7 +6,7 @@
    * [CSS](Page/cssmd.md)
    * [页面制作练习](Page/pageExercise.md)
 * [Javascript程序设计](JS/javascriptmd.md)
-   * [js练习](JS/jsExercise.md)
+   * [js练习](JS/jsexercisemd.md)
 * [DOM编程艺术](DOM.md)
 * [markdown语法说明](markdown.md)
 
