@@ -10,6 +10,6 @@
 * [DOM编程艺术](dommd.md)
 * [页面构架](pageFramework.md)
 * [产品前端构架](productFramework.md)
-* [Web前端开发实践](practice.md)
+* [Web前端开发实践](practicemd.md)
 * [markdown语法说明](markdown.md)
 
