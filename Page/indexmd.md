@@ -8,8 +8,8 @@
 ##页面布局练习
 
 [页面制作课程页面](http://mooc.study.163.com/learn/NEU-1000054000#/learn/content?type=detail&id=1000174022)
-2015/05/26开始 
->**期末考试	6.18发布**
+2015/09/10开始 
+
 
 ####Photoshop
 - 连续撤销快捷键 com+alt+z
