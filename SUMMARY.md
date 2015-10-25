@@ -7,7 +7,7 @@
    * [页面制作练习](Page/pageexercisemd.md)
 * [Javascript程序设计](JS/javascriptmd.md)
    * [js练习](JS/jsexercisemd.md)
-   * [基础篇](JS/Advanced_javasript.md)
+   * [进阶篇](JS/Advanced_javasript.md)
    * [基础篇](JS/base_javasript.md)
 * [DOM编程艺术](dommd.md)
 * [页面构架](pageframeworkmd.md)
