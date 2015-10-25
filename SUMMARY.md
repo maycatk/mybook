@@ -9,8 +9,6 @@
    * [js练习](JS/jsexercisemd.md)
    * 基础篇
    * 基础篇
-   * [进阶篇](JS/Advanced_javascript.md)
-       * 基础篇
 * [DOM编程艺术](dommd.md)
 * [页面构架](pageframeworkmd.md)
 * [产品前端构架](productframeworkmd.md)
