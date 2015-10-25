@@ -8,7 +8,7 @@
 * [Javascript程序设计](JS/javascriptmd.md)
    * [js练习](JS/jsexercisemd.md)
    * 基础篇
-   * 基础篇
+   * [基础篇](JS/base_javasript.md)
 * [DOM编程艺术](dommd.md)
 * [页面构架](pageframeworkmd.md)
 * [产品前端构架](productframeworkmd.md)
