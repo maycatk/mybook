@@ -8,3 +8,16 @@
 var number = random();
     number是0-999之间的整数。
 ```
+---
+
+> 答案
+```javascript
+function random(){
+	var i = Math.floor(Math.random()*1000); //向下取整然后再取随机数[0,1)*1000
+	return i;
+}
+var number = random();
+```
+
+
+
