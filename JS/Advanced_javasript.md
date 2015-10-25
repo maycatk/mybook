@@ -8,5 +8,9 @@
 - Boolean
 - String
 - Number
+原始（值）类型
+----
 - Object
+对象（引用）类型
+----
 
