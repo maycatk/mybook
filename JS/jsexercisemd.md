@@ -66,7 +66,8 @@ var tom = new Person("Tom", 12);
 
 **答案**
 
-```javasript
+
+```html
 function Person(name,age){
 	this.name = name;
 	this.age = age;
