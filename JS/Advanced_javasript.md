@@ -3,4 +3,10 @@
 
 ##类型进阶
 
+- Undefined
+- Null
+- Boolean
+- String
+- Number
+- Object
 
