@@ -56,13 +56,26 @@ function $(id){
 ```
 - 获取span标签 JS
 ```javasript
-var collection=[elm|document].getElementsByClassName(classes);
+var type = document.getElementById('type');//未封装之前获取节点代码
+var type = $('type');//封装后获取节点方法
 ```
 ###getElementsByClassName
 ```javascript
-var elm = document.getElementById(IDString);
+var collection = [elm|document].getElementsByClassName(classes);
 ```
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
 | IDString | String | 是 | id字符串 |
 | elm | Node |     | 被标记id为IDString的节点 |
+
+
+
+
+
+
+
+
+
+
+
+
