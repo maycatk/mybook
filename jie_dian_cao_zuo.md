@@ -30,4 +30,4 @@ var elm = document.getElementById(IDString);
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
 | IDString | String | 是 | id字符串 |
-| elm | Node |     | 被标记id为IDString的 |
+| elm | Node |     | 被标记id为IDString的节点 |
