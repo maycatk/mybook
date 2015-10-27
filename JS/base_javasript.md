@@ -48,6 +48,8 @@ function doSomething{
 ```break``` ```do``` ```instanceof``` ```typeof```
 ```case``` ```else``` ```new``` ```var``` ```catch``` ```finally``` ```return``` ```viod``` ```continue```
 
+- 保留字
+
 
 
 
