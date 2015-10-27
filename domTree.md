@@ -1,4 +1,4 @@
-# 1.文档树
+# 文档树
 
 ##DOM
 - Document Object Model
@@ -27,3 +27,4 @@ node.parentNode  //父节点
     .previousSibling   //前一个兄弟
     .nextSibling //后一个兄弟节点
 ```
+
