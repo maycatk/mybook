@@ -14,7 +14,7 @@
            * [Undefined](JS/undefined.md)
            * [Null](JS/null.md)
            * [Boolean](JS/boolean.md)
-           * Number
+           * [Number](JS/number.md)
    * [进阶篇](JS/Advanced_javasript.md)
 * [DOM编程艺术](dommd.md)
    * [文档树](domTree.md)
