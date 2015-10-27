@@ -57,5 +57,5 @@ function $(id){
 - 获取span标签 JS
 ```javasript
 var type = document.getElementById('type');//未封装之前获取节点代码
-var p = $('p');//
+var type = $('type');//封装后获取节点方法
 ```
