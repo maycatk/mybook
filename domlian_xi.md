@@ -24,7 +24,7 @@ function getElementChildren(element){
 
 ```javascript
 function getElementsByClassName(elm,clazz){
-	if (elm.getElementsByClassName) {
+	if (elm.getElementsByClassName) { //检测方法是否存在
 		return elm.getElementsByClassName(clazz);
 	}else{
 		var list = elm.getElementsByTagName('*'),result=[];
