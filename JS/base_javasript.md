@@ -40,8 +40,11 @@
 ```javascript
 function doSomething{
   use strict";
+  //函数体
 }
 ```
+- 关键字
+
 
 
 
