@@ -63,10 +63,12 @@ var type = $('type');//封装后获取节点方法
 ```javascript
 var collection = [elm|document].getElementsByClassName(classes);
 ```
+
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
-| IDString | String | 是 | id字符串 |
-| elm | Node |     | 被标记id为IDString的节点 |
+| classes | String | 是 | 一个或多个样式(由空格分隔) |
+| collection | HTMLCollection |     | live html collection |
+
 
 
 
