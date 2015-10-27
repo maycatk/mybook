@@ -20,4 +20,20 @@ function getElementChildren(element){
 }
 
 ```
+2.getElementsByClassName()兼容IE6方法
 
+```javascript
+function getElementsByClassName(elm,clazz){
+	if (elm.getElementsByClassName) {
+		return elm.getElementsByClassName(clazz);
+	}else{
+		var list = elm.getElementsByTagName('*'),result=[];
+		for(var i = 0,l=list.length;i<1;i++){
+			if ((' ' + list[i].className+ ' ').indexOf(' ' + clazz+' ')!=-1) {
+				result.push(list[i]);
+			}
+		}
+		return result;
+	}
+}
+```
