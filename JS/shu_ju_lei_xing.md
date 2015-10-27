@@ -12,4 +12,3 @@
 
 > ECMASript数据类型具有动态性
 
-####Undefined
