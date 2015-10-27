@@ -10,6 +10,7 @@
    * [基础篇](JS/base_javasript.md)
        * [语法](JS/yu_fa.md)
        * [数据类型](JS/shu_ju_lei_xing.md)
+       * 关键字、保留字、变量
    * [进阶篇](JS/Advanced_javasript.md)
 * [DOM编程艺术](dommd.md)
    * [文档树](domTree.md)
