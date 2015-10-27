@@ -23,4 +23,4 @@
 ![视图层技能图](http://i11.tietuku.com/a7b46691563a69fdt.jpg)
 
 **前阶段分工模式**
-
+![分工模式](http://i11.tietuku.com/1b6f154a86138924t.jpg)
