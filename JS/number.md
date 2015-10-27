@@ -23,5 +23,5 @@
 
 ```javascript
   var result = Number.MAX_VALUE + Number.MAX_VALUE;
-  alert(isFinite(result));//false超出
+  alert(isFinite(result));//false 超出范围
 ```
