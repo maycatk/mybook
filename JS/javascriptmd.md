@@ -1,5 +1,7 @@
 #javascript程序设计
 
-##javascript程序设计简介
+###在HTML中使用javascript
+
+#### < script >元素
 
 
