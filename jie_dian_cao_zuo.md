@@ -15,7 +15,15 @@
 ---
 
 ##获取节点
+
 - getElementById
 - getElementByClassName
 - getElementByTagName
 - querySelector
+
+---
+
+###getElementById
+```javascript
+var elm = document.getElementById(IDString);
+```
