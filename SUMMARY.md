@@ -8,6 +8,7 @@
 * [Javascript程序设计](JS/javascriptmd.md)
    * [js练习](JS/jsexercisemd.md)
    * [基础篇](JS/base_javasript.md)
+       * 数据类型
    * [进阶篇](JS/Advanced_javasript.md)
 * [DOM编程艺术](dommd.md)
    * [文档树](domTree.md)
