@@ -63,15 +63,36 @@ var type = $('type');//封装后获取节点方法
 ```javascript
 var collection = [elm|document].getElementsByClassName(classes);
 ```
+> 在document中查找拥有classes的节点
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
 | classes | String | 是 | 一个或多个样式(由空格分隔) |
 | collection | HTMLCollection |     | live html collection |
 
+> 实例:
 
+获取两个```span```节点
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>hello,<span class="flag">mooc</span>
+		<span class="flag z-flag">users</span>
+	</p>
+</body>
+</html>
+```
 
-
+```javascript
+var list = p.getElementsByClassName('flag');
+var type = list[0],user = list[1];//list[0] === "mooc",list[1] === "users"
+var list1 = p.getElementsByClassName('flag z-flag');//获取第二个span
+```
 
 
 
