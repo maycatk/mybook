@@ -35,7 +35,13 @@
 在严格模式下 ECMAScript 3 中一些不确定的行为将得到处理对于某些不安全的操作也会抛出错误；在整个脚本中启用严格模式在顶部添加：
 ```"use strict";```
 
+指定函数体中启用严格模式：
 
+```javascript
+function doSomething{
+  use strict";
+}
+```
 
 
 
