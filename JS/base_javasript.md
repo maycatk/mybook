@@ -27,4 +27,5 @@
     - _432$fds   
     - $_fdsfds
     - ko_3
-    - [x] fdsaf
+  - 一般才用驼峰大小写格式:getElementById.....
+ 
