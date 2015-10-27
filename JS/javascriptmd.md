@@ -48,7 +48,7 @@ HTML页面中插入javascript的方法就是使用```<script>```标签；
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>实例</title>
+    <title>实例</title>
 </head>
 <body>
 	<!-- 页面内容 -->
