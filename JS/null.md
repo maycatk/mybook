@@ -7,7 +7,10 @@
 	- 表示对象不存在
 	- var car = null;
 
-> 实际上undefined值是派生自null值:
+---
+
+- 实际上undefined值是派生自null值:
+
 ```javascript
 alert(undefined == null);//ture
 ```
