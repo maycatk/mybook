@@ -53,9 +53,17 @@ function doSomething{
 **未补完**
 
 
+- 变量
+  
+松散类型，可以用来保存任何类型的数据；定义变量要使用```var```后跟变量名:```var message;```
 
-
-
+###数据类型
+5种基本数据类型：
+- Undefined
+- Null
+- Boolean
+- Number
+- String
 
 
 
