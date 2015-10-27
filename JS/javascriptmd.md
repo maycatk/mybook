@@ -6,15 +6,16 @@
 
 HTML页面中插入javascript的方法就是使用```<script>```标签；
 
-- 两种使用方法：
-    1. 页面中嵌入javascript代码
-    
-```javascript
+两种使用方法：
+- 页面中嵌入javascript代码
 
+```html
+<script type="text/javascript">
 
-
+</script>
 ```
-    
-    
-    2. 包含外部javascript文件
+
+---
+
+- 包含外部javascript文件
 
