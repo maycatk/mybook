@@ -94,6 +94,31 @@ var type = list[0],user = list[1];//list[0] === "mooc",list[1] === "users"
 var list1 = p.getElementsByClassName('flag z-flag');//获取第二个span方法
 ```
 
+##未补完##
+
+---
+
+##创建节点
+- createElement
+- innerHTML
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
