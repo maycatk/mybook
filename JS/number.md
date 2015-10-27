@@ -14,3 +14,14 @@
 - 特殊值
 	- NaN(Not a Number)
 	- Infinity 无穷大
+- 数值范围
+  - 最大值：```5e-324```
+  - 最小值：```1.7976931348623157e+308```
+  - 超出范围的值会被转换成特使的```Infinity```值；负数为```-Infinity```(负无穷)；正数为```+Infinity```(正无穷);
+
+检测一个数值是否超范围:
+
+```javascript
+  var result = Number.MAX_VALUE + Number.MAX_VALUE;
+  alert(isFinite(result));//false超出
+```
