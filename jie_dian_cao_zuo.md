@@ -31,3 +31,31 @@ var elm = document.getElementById(IDString);
 | -- | -- | -- | -- |
 | IDString | String | 是 | id字符串 |
 | elm | Node |     | 被标记id为IDString的节点 |
+
+- 封装function
+```javascript
+function $(id){
+    return document.getElementById(id);
+}
+```
+> 实例:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>兼容版本元素遍历</title>
+</head>
+<body>
+	<p id="p">hello,<span id="type">mooc</span> users </p>
+	<div><img src="images/user.jpg"/>
+	</div>
+</body>
+</html>
+```
+- 获取span标签 JS
+```javasript
+var type = document.getElementById('type');//未封装之前调用
+var t = $('type');
+```
