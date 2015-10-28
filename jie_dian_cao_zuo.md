@@ -122,6 +122,7 @@ element.textContent = 'This’s DOM'; //创建内容
 ###innerHTML
 ```element.innerHTML = HTMLString```
 
+获取对象内容 **或者** 向对象插入内容
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
@@ -131,9 +132,21 @@ element.textContent = 'This’s DOM'; //创建内容
 
 > 实例：
 
+html
+```html
+<html>
+<body>
+<div id="aa">this is a test!</div>
+<div id="abc">ji</div>
+</body>
+</html>
+```
+js
+
 ```javascript
-var element = document.createElement('span'); //创建span
-element.textContent = 'This’s DOM'; //创建内容
+var i = document.getElementById('aa').innerHTML; //向id为aa的元素获取内容
+alert(i); //输出
+document.getElementById('abc').innerHTML='HOOOOO. THIS\'S ADD TEXT.';//向ID为abc添加
 ```
 
 
