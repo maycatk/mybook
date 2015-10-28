@@ -303,13 +303,19 @@ p.insertAdjacentElement('afterBegin',element);
 ### insetAdjacentHTML
 
 指定插入,根据参照节点插入```字符串```
-
+**不建议用此方法来插入节点**
 
 ```javascript
 var str = '<span>this is dom</span>';
 p.insertAdjacentElement('afterBegin',str);
 ```
 
+
+####insetAdjacentElement 兼容方式实现
+
+```javasc
+
+```
 
 
 
