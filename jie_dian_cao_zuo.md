@@ -313,6 +313,8 @@ p.insertAdjacentElement('afterBegin',str);
 
 ####insetAdjacentElement 兼容方式实现
 
+- 在老浏览器里面是不存在此API 创建兼容方法
+
 ```javascript
 if (typeof HTMLElement!= "undefined" && !HTMLElement.prototype.insertAdjacentElement) {
 	HTMLElement.prototype.insertAdjacentElement = function(where,parsedNode){
