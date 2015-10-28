@@ -61,3 +61,4 @@ input.value = 'wwq@155.com';//写操作
 input.getAttribute("class");//"u-text"
 ```
 
+- 写
