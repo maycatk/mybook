@@ -210,7 +210,7 @@ users
 ```javascript
 var element = document.createElement('span');//创建标签
 element.textContent = 'this is DOM';//添加标签内容
-p.appendChild(element);//插入
+p.appendChild(element);//插入标签
 ```
 
 
