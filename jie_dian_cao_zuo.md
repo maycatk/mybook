@@ -146,7 +146,7 @@ js
 ```javascript
 var i = document.getElementById('aa').innerHTML; //向id为aa的元素获取内容
 alert(i); //输出
-document.getElementById('abc').innerHTML='HOOOOO. THIS\'S ADD TEXT.';//向ID为abc添加
+document.getElementById('abc').innerHTML='HOOOOO. THIS\'S ADD TEXT.';//向ID为abc添加内容
 ```
 
 
