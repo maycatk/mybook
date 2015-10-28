@@ -255,6 +255,48 @@ var span = $('type');//获取Id为type的标签span
 p.insertBefore(element,span);//在span插入element
 ```
 
+### insetAdjacentElement
+
+插入节点在父节点前面
+
+```var oElm = elm.insetAdjacentElement(sWhere,oElm);```
+
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| newElm | Node | 是 | 将插入的节点 |
+| rElm | Node |   是  | newElm将插入的之前节点 |
+| parent | Node |   是  | 父节点 |
+
+> 实例：
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>innerHTML</title>
+</head>
+<body>
+<p id="p">
+<!-- insertBefore -->
+hello,
+<span id="type">mooc</span>
+users
+</p>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
+```
+
+```javascript
+function $(id){
+    return document.getElementById(id);
+}//获取封装    
+var element = document.createElement('span');
+element.innerHTML = 'this is DOM'; 
+var span = $('type');//获取Id为type的标签span
+p.insertBefore(element,span);//在span插入element
+```
 
 
 
