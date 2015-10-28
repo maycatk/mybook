@@ -380,7 +380,7 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 | -- | -- | -- | -- |
 | child | Node | 是 | 需要删除的节点 |
 | oElm | Node |   是  | child的父节点 |
-| elm | Node |   是  |被删除的节点 |
+| elm | Node |   是  | 被删除的节点 |
 
 
 
