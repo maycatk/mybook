@@ -220,7 +220,7 @@ p.appendChild(element);//插入标签
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
-| newElm | Node | 是 | 将插入的 |
+| newElm | Node | 是 | 将插入的节点 |
 | rElm | Node |   是  | newElm将插入的之前节点 |
 | parent | Node |   是  | 父节点 |
 
@@ -235,7 +235,7 @@ p.appendChild(element);//插入标签
 </head>
 <body>
 <p id="p">
-	hello,
+hello,
 <span id="type">mooc</span>
 users
 <!-- appendChild -->
