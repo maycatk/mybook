@@ -360,5 +360,6 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 	this.textContent = s;
 })
 ```
-
+###innerHTML VS innerText
+```elm1.innerHTML = '<img src = "a.png"/>';```
 
