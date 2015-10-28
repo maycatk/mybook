@@ -264,7 +264,7 @@ p.insertBefore(element,span);//在span插入element
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
 | sWhere | String | 是 | 位置描述（beforeBegin,afterBegin,beforeEnd,afterEnd） |
-| oElm | Node |   是  | 插入 |
+| oElm | Node |   是  | 插入节点 |
 | elm | Node |   是  | 参照节点 |
 
 > 实例：
