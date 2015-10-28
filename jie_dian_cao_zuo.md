@@ -214,7 +214,7 @@ p.appendChild(element);//插入标签
 ```
 ### insertBefore
 
-插入节点在父节点内容前面
+插入节点在父节点前面
 
 ```var newElm = parent.insertBefore(newElm,rElm);```
 
