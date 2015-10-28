@@ -386,7 +386,9 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 - 实际使用中得封装使用
 
 ```javascript
-
+function remove(elm){
+	elm.parentNode.removeChild(elm);
+}
 ```
 
 
