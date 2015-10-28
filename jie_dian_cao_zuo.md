@@ -149,7 +149,14 @@ alert(i); //输出
 document.getElementById('abc').innerHTML='HOOOOO. THIS\'S ADD TEXT.';//向ID为abc添加内容
 ```
 
-
+###innerHTML和createElement应用区别
+- 节点个数
+  - 多节点操作createElement创建复杂，用innerHTML只用一个字符串；
+  
+- 事件处理
+  - createElement创建的节点可以直接添加事件，innerHTML只能通过在HTML添加onclick等事件（不推荐）或者添加事件委托来处理事件逻辑；
+- 结合使用
+- 实例：
 
 
 
