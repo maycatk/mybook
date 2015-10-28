@@ -35,3 +35,4 @@ input.value = 'wwq@155.com';//写操作
 ```
 ## 属性类型
 ![属性类型](http://i13.tietuku.com/8c6fffed49c2aeb4s.png)
+
