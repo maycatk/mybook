@@ -181,7 +181,10 @@ list[1].innerText = 'my name is netease';
 ### appendChild
 ```var child = parent.appendChild(child);```
 
-
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| child | Node | 是 | 将节点插入到父节点最后子节点之后 |
+| parent | Node |     | 父节点 |
 
 
 
