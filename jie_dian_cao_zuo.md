@@ -119,7 +119,22 @@ var element = document.createElement('span'); //创建span
 element.textContent = 'This’s DOM'; //创建内容
 ```
 
+###innerHTML
+```element.innerHTML = HTMLString```
 
+
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| HTMLString | String |  | 名 |
+| element |  |     | 同步解析HTMLString为element dom树 |
+
+
+> 实例：
+
+```javascript
+var element = document.createElement('span'); //创建span
+element.textContent = 'This’s DOM'; //创建内容
+```
 
 
 
