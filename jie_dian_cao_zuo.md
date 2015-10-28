@@ -302,16 +302,15 @@ p.insertAdjacentElement('afterBegin',element);
 
 ### insetAdjacentHTML
 
-指定插入,根据参照节点插入字符串
+指定插入,根据参照节点插入```字符串```
 
 
-```var oElm = elm.insetAdjacentElement(sWhere,oElm);```
+```javascript
+var str = '<span>this is dom</span>';
+p.insertAdjacentElement('afterBegin',str);
+```
 
-| 参数名称 | 类型 | 是否必选 | 描述 |
-| -- | -- | -- | -- |
-| sWhere | String | 是 | 位置描述（beforeBegin,afterBegin,beforeEnd,afterEnd） |
-| oElm | Node |   是  | 插入节点 |
-| elm | Node |   是  | 参照节点 |
+
 
 
 
