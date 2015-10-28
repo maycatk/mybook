@@ -399,7 +399,7 @@ remove($('type'))
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
-| newChild | Node | 是 | 需要的节点 |
+| newChild | Node | 是 | 需要插入的节点 |
 | oElm | Node |   是  | 需要删除节点 |
 | parent | Node |   是  | oElm的父节点 |
 | oElm | Node |     | 删除的节点 |
