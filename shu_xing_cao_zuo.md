@@ -85,6 +85,7 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 - data-*属性集
 - 元素上保存数据
 
-
+一般用来做自定义的属性
+![](http://i13.tietuku.com/21b389656181d21fs.png)
 
 
