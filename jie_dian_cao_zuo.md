@@ -115,8 +115,8 @@ var list1 = p.getElementsByClassName('flag z-flag');//获取第二个span方法
 > 实例：
 
 ```javascript
-var element = document.createElement('span');
-element.textContent = 'This’s DOM';
+var element = document.createElement('span'); //创建span
+element.textContent = 'This’s DOM'; //创建内容
 ```
 
 
