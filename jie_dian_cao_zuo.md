@@ -340,7 +340,15 @@ if (typeof HTMLElement!= "undefined" && !HTMLElement.prototype.insertAdjacentEle
 - innerHTML
 - textContent(innerText)
 
+###innerHTML
+- 万能的innerHTML
 
+```javascript
+elm.innerHTML = '<img src = 'a.png'/>';
+elm.innerHTML = '';
+elm.innerHTML = '<ul><li>1</li><li>2</li></ul>';
+elm.innerHTML += '<a href="http://www.ee.com">test</a>'; 
+```
 
 
 
