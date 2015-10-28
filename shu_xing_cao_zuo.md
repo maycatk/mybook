@@ -127,5 +127,26 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 </html>
 ```
 ```javascript
+function $(id){
+	return document.getElementById(id);
+}
+var list = document.getElementsByTagName('li');
+for(var i = 0,li;li = list[i];i++){
+	li.onmouseenter = function(event){
+		event = event || window.event;
+		var user = event.target || event.srcElement;
+		var data = user.dataset;
 
+		$('accountName').innerText = data.accountName;
+		$('name').innerText = data.name;
+		$('email').innerText = data.email;
+		$('mobile').innerText = data.mobile;
+
+		$('card').style.display = 'block';
+
+	};
+	li.onmouseleave = function(event){
+		$('card').style.display = 'none';
+	};
+}
 ```
