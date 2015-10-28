@@ -62,6 +62,7 @@ input.getAttribute("class");//"u-text"
 ```
 
 - 写
+```element.setAttribute(name,value);```
 
 ```html
 <div>
@@ -71,5 +72,5 @@ input.getAttribute("class");//"u-text"
 ```
 
 ```javascript
-input.getAttribute("class");//"u-text"
+input.setAttribute("value","ww2@qrf.com");//"u-text"
 ```
