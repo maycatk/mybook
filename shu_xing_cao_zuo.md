@@ -43,3 +43,8 @@ input.value = 'wwq@155.com';//写操作
 扩展性差
 实用对象
 
+##getAttribute/setAttribute 
+- 读
+
+```var attribute = element.getAttribute(attributeName); ```
+
