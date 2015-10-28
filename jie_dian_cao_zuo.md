@@ -263,7 +263,7 @@ p.insertBefore(element,span);//在span插入element
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
-| newElm | Node | 是 | 将插入的节点 |
+| sWhere | String | 是 | 位置描述（beforeBegin,afterBegin,beforeEnd,afterEnd） |
 | rElm | Node |   是  | newElm将插入的之前节点 |
 | parent | Node |   是  | 父节点 |
 
