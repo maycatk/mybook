@@ -89,4 +89,4 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 ![](http://i13.tietuku.com/21b389656181d21fs.png)
 
 
-[实际用例](http://codepen.io/maycatk/pen/MaGOwV)
+[点击查看实际用例](http://codepen.io/maycatk/pen/MaGOwV)
