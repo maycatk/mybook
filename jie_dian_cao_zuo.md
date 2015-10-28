@@ -388,7 +388,8 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 ```javascript
 function remove(elm){
 	elm.parentNode.removeChild(elm);
-}
+}//封装
+remove($('type'))
 ```
 
 
