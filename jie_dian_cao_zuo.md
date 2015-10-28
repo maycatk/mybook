@@ -368,3 +368,4 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 
 用```innerHTML```来修改内容会引起脚本的注入
 > 一个攻击脚本被添加到网站上面就会通过脚本伪造cookie来获取用户信息
+
