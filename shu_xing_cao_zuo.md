@@ -88,6 +88,5 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 一般用来做自定义的属性
 ![](http://i13.tietuku.com/21b389656181d21fs.png)
 
-用例：
 
-[用例：](http://codepen.io/maycatk/pen/MaGOwV)
+[实际用例](http://codepen.io/maycatk/pen/MaGOwV)
