@@ -93,7 +93,7 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 
 ###实现低版本浏览器兼容element.dataset
 
-运用attribute来实现
+运用attribute等来实现
 
 ```javascript
 
