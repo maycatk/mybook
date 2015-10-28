@@ -179,6 +179,8 @@ list[1].innerText = 'my name is netease';
 - insertAdjacentHTML
 
 ### appendChild
+```var child = parent.appendChild(child);```
+
 
 
 
