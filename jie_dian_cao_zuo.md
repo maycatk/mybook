@@ -383,7 +383,11 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 | parent | Node |   是  | child的父节点 |
 | child | Node |   是  | 被删除的节点 |
 
+- 实际使用中得封装使用
 
+```javascript
+
+```
 
 
 
