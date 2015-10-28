@@ -293,7 +293,7 @@ users
 ```
 
 ```javascript
- var element = document.createElement('span');
+var element = document.createElement('span');
 element.innerHTML = 'this is DOM';
 var span = $('type');
 p.insertAdjacentElement('afterBegin',element);
