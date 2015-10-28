@@ -29,5 +29,5 @@ input["d"];//"userName"
 
 ```
 ```javascript
-input.value = 'wwq@155.com';
+input.value = 'wwq@155.com';//写操作
 ```
