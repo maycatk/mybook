@@ -404,8 +404,39 @@ remove($('type'))
 | parent | Node |   是  | oElm的父节点 |
 | oElm | Node |     | 删除的节点 |
 
+实例：
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>innerHTML</title>
+</head>
+<body>
+<p id = "p">hello,
+<span id = "type">mooc</span>
+users
+</p>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
+```
 
+```javascript
+var type = document.getElementById('type');
+var p = document.getElementById('p');
+var netease = document.createElement('span');
+netease.innerText = 'netease';
+p.replaceChild(netease,type);//替换增加
+```
+
+###应用
+
+- replaceChild == removeChild&appendChild
+- 注意点
+  - remove event 把之前的事件给移除掉
+  - elm.innerHTML = "" 
 
 
 
