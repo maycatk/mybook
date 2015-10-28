@@ -235,10 +235,10 @@ p.appendChild(element);//插入标签
 </head>
 <body>
 <p id="p">
+<!-- insertBefore -->
 hello,
 <span id="type">mooc</span>
 users
-<!-- appendChild -->
 </p>
 <script type="text/javascript" src="js.js"></script>
 </body>
@@ -248,7 +248,7 @@ users
 ```javascript
 var element = document.createElement('span');//创建标签
 element.textContent = 'this is DOM';//添加标签内容
-p.appendChild(element);//插入标签
+p.insertBefore(element);//插入标签
 ```
 
 
