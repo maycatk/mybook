@@ -375,6 +375,13 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 - innerHTML 为空得方法来删除节点
 
 ### removeChild
+```var child = parent.removeChild(child);```
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| child | Node | 是 | 需要删除的 |
+| oElm | Node |   是  | 插入节点 |
+| elm | Node |   是  | 参照节点 |
+
 
 
 
