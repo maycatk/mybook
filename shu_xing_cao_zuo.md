@@ -90,4 +90,42 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 
 用例：
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>innerHTML</title>
+	<style type="text/css">
+		li{cursor: default;line-height: 1.8;}
+		table{border-collapse: collapse;}
+		th, td, caption{padding: 10px;border: 1px solid #ddd;font-size: 14px;}
+		th{color: #999;}
+		caption{font-size: 20px;font-weight: bold;border-bottom: none;}
+		#card{position: absolute;top: 10px;left: 150px;}
+	</style>
+</head>
+<body>
+<ul>
+		<li data-id="123456" data-account-name="wwq"
+			data-name="魏文庆" data-email="wwq123@163.com" 
+			data-mobile="13524543878">wwq</li>
+		<li data-id="123457" data-account-name="cjf"
+			data-name="蔡剑飞" data-email="cjf123@163.com" 
+			data-mobile="13968789868">cjf</li>
+	</ul>
+<div id="card" style="display:none">
+	<table>
+		<caption id="accountName"></caption>
+		<tr><th>姓名：</th><td id="name"></td></tr>
+		<tr><th>邮箱：</th><td id="email"></td></tr>
+		<tr><th>手机：</th><td id="mobile"></td></tr>		
+	</table>
+</div>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
+```
+```javascript
 
+```
