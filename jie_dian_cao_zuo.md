@@ -257,7 +257,8 @@ p.insertBefore(element,span);//在span插入element
 
 ### insetAdjacentElement
 
-插入节点在父节点前面
+指定插入
+
 
 ```var oElm = elm.insetAdjacentElement(sWhere,oElm);```
 
