@@ -90,3 +90,4 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 
 用例：
 
+[用例：](http://codepen.io/maycatk/pen/MaGOwV)
