@@ -313,7 +313,7 @@ p.insertAdjacentElement('afterBegin',str);
 
 ####insetAdjacentElement 兼容方式实现
 
-```javasc
+```javascript
 if (typeof HTMLElement!= "undefined" && !HTMLElement.prototype.insertAdjacentElement) {
 	HTMLElement.prototype.insertAdjacentElement = function(where,parsedNode){
 		switch(where){
