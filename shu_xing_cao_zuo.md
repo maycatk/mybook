@@ -33,3 +33,4 @@ input["d"];//"userName"
 ```javascript
 input.value = 'wwq@155.com';//写操作
 ```
+## 属性类型
