@@ -62,7 +62,7 @@ input.getAttribute("class");//"u-text"
 ```
 
 - 写
-- 
+
 ```html
 <div>
 	<label for="userName">用户名:</label>
