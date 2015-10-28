@@ -362,5 +362,6 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 ```
 ###innerHTML VS innerText
 ```elm1.innerHTML = '<img src = "a.png"/>';```
-
+产生图片
 ```elm1.innerContent = '<img src = "a.png"/>';```
+产生字符串
