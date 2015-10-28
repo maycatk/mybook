@@ -372,7 +372,9 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 ##删除节点
 - removeChild
 - replaceChild
-- innerHTML 为空得方法来删除
+- innerHTML 为空得方法来删除节点
+
+### removeChild
 
 
 
