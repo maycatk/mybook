@@ -17,5 +17,6 @@
 
 ```
 ```javascript
-
+input.className;//"u-text"
+input["d"];//"userName"
 ```
