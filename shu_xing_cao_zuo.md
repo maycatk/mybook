@@ -48,3 +48,16 @@ input.value = 'wwq@155.com';//写操作
 
 ```var attribute = element.getAttribute(attributeName); ```
 
+实例：
+
+```html
+<div>
+	<label for="userName">用户名:</label>
+	<input type="text" id="userName" class="u-text">
+</div>
+```
+
+```javascript
+input.getAttribute("class");//"u-text"
+```
+
