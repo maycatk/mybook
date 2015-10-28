@@ -74,3 +74,4 @@ input.getAttribute("class");//"u-text"
 ```javascript
 input.setAttribute("value","ww2@qrf.com");//"u-text"
 ```
+- 他们获取的都是属性字符串
