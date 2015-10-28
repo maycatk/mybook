@@ -43,7 +43,7 @@ input.value = 'wwq@155.com';//写操作
 扩展性差
 实用对象
 
-##getAttribute/setAttribute 
+##getAttribute/setAttribute 属性访问符
 - 读
 
 ```var attribute = element.getAttribute(attributeName); ```
