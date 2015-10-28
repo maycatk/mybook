@@ -394,10 +394,15 @@ function $(id){
 }//获取封装  
 remove($('type'))
 ```
+### replaceChild
+```var oElm = parent.replaceChild(newChild,oElm);```
 
-
-
-
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| child | Node | 是 | 需要删除的节点 |
+| parent | Node |   是  | child的父节点 |
+| child | Node |   是  | 被删除的节点 |
+| child | Node |   是  | 被删除的节点 |
 
 
 
