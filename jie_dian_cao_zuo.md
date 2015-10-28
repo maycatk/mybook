@@ -246,9 +246,10 @@ users
 ```
 
 ```javascript
-var element = document.createElement('span');//创建标签
-element.textContent = 'this is DOM';//添加标签内容
-p.insertBefore(element);//插入标签
+var element = document.createElement('span');
+element.innerHTML = 'this is DOM'; 
+var span = $('type');//获取Id为type的标签span
+p.insertBefore(element,span);//在span插入element
 ```
 
 
