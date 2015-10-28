@@ -21,6 +21,7 @@ input.className;//"u-text"
 input["d"];//"userName"
 ```
 - 写
+
 ```html
 <div>
 	<label for="userName">用户名:</label>
@@ -28,6 +29,7 @@ input["d"];//"userName"
 </div>
 
 ```
+
 ```javascript
 input.value = 'wwq@155.com';//写操作
 ```
