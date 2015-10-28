@@ -186,9 +186,32 @@ list[1].innerText = 'my name is netease';
 | child | Node | 是 | 将节点插入到父节点最后子节点之后 |
 | parent | Node |     | 父节点 |
 
+> 实例：
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>innerHTML</title>
+</head>
+<body>
+<p id="p">
+	hello,
+<span id="type">mooc</span>
+users
+<!-- appendChild -->
+</p>
+<script type="text/javascript" src="js.js"></script>
+</body>
+</html>
+```
 
-
+```javascript
+var element = document.createElement('span');//创建标签
+element.textContent = 'this is DOM';//添加标签内容
+p.appendChild(element);//插入
+```
 
 
 
