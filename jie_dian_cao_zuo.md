@@ -220,8 +220,9 @@ p.appendChild(element);//插入标签
 
 | 参数名称 | 类型 | 是否必选 | 描述 |
 | -- | -- | -- | -- |
-| child | Node | 是 | 将节点插入到父节点最后子节点之后 |
-| parent | Node |     | 父节点 |
+| newElm | Node | 是 | 将插入的 |
+| rElm | Node |   是  | newElm将插入的之前节点 |
+| parent | Node |   是  | 父节点 |
 
 > 实例：
 
