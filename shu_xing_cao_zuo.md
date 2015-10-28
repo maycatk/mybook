@@ -20,3 +20,14 @@
 input.className;//"u-text"
 input["d"];//"userName"
 ```
+- 写
+```html
+<div>
+	<label for="userName">用户名:</label>
+	<input type="text" id="userName" class="u-text">
+</div>
+
+```
+```javascript
+input.value = 'wwq@155.com';
+```
