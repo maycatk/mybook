@@ -246,6 +246,9 @@ users
 ```
 
 ```javascript
+function $(id){
+    return document.getElementById(id);
+}//获取封装    
 var element = document.createElement('span');
 element.innerHTML = 'this is DOM'; 
 var span = $('type');//获取Id为type的标签span
