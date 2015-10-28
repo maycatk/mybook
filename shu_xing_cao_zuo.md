@@ -62,3 +62,14 @@ input.getAttribute("class");//"u-text"
 ```
 
 - 写
+- 
+```html
+<div>
+	<label for="userName">用户名:</label>
+	<input type="text" id="userName" class="u-text">
+</div>
+```
+
+```javascript
+input.getAttribute("class");//"u-text"
+```
