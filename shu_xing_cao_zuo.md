@@ -75,3 +75,5 @@ input.getAttribute("class");//"u-text"
 input.setAttribute("value","ww2@qrf.com");//"u-text"
 ```
 - 他们获取的都是属性字符串
+- 用get\*\*\*操作仅字符串
+- 通用性
