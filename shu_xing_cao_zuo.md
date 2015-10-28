@@ -79,6 +79,10 @@ input.setAttribute("value","ww2@qrf.com");//"u-text"
 - 通用性
 
 
+##dateset
+- HTMLElement.dataset
+- data-*属性集
+- 元素上保存数据
 
 
 
