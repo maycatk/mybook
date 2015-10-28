@@ -158,7 +158,18 @@ document.getElementById('abc').innerHTML='HOOOOO. THIS\'S ADD TEXT.';//向ID为a
 - 结合使用
 - 实例：
 
+```javascript
+var tp1 = ' <div class="item">\
+				<img class="j-flag"/>\
+				<div class="j-flag"></div>\
+			</div>';
+var box = document.createElement('div');
+box.innerHTML = tp1;
+var list = box.getElementsByClassName('j-flag');
+list[0].src = '/imgurl.jpg';
+list[1].innerText = 'my name is netease';
 
+```
 
 
 
