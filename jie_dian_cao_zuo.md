@@ -338,17 +338,27 @@ if (typeof HTMLElement!= "undefined" && !HTMLElement.prototype.insertAdjacentEle
 
 ##修改节点
 - innerHTML
-- textContent(innerText)
+- textContent(innerText) 火狐下没能实现这一属性
 
 ###innerHTML
 - 万能的innerHTML
 
 ```javascript
-elm.innerHTML = '<img src = 'a.png'/>';
-elm.innerHTML = '';
+elm.innerHTML = '<img src = 'a.png'/>'; // 添加
+elm.innerHTML = '';//添加空
 elm.innerHTML = '<ul><li>1</li><li>2</li></ul>';
-elm.innerHTML += '<a href="http://www.ee.com">test</a>'; 
+elm.innerHTML += '<a href="http://www.ee.com">test</a>'; //新增内容达到修改节点内容
 ```
+###textContene
+- FF兼容
 
+```javascript
+HTMLElement.prototype._defineGetter_("innerText",function(){
+	return this.textContent;
+})
+HTMLElement.prototype._defineSetter_("innerText",function(s){
+	this.textContent = s;
+})
+```
 
 
