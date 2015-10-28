@@ -102,7 +102,14 @@ var list1 = p.getElementsByClassName('flag z-flag');//获取第二个span方法
 - createElement
 - innerHTML
 
+###createElement
+```var element = document.creataElement(tag)```
 
+
+| 参数名称 | 类型 | 是否必选 | 描述 |
+| -- | -- | -- | -- |
+| tag | String | 是 | 标签名 |
+| element | Node |     |  |
 
 
 
