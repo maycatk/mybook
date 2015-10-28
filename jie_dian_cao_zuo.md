@@ -362,7 +362,7 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 ```
 ###innerHTML VS innerText
 ```elm1.innerHTML = '<img src = "a.png"/>';```
-直接产生图片
+直接产生图片,能出瞬间path成NODE树到页面上
 ```elm1.innerContent = '<img src = "a.png"/>';```
 产生字符串
 
