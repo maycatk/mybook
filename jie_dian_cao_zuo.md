@@ -278,25 +278,25 @@ p.insertBefore(element,span);//在span插入element
 	<title>innerHTML</title>
 </head>
 <body>
+<!-- beforeBegin -->
 <p id="p">
-<!-- insertBefore -->
+<!-- afterBegin -->
 hello,
 <span id="type">mooc</span>
 users
+<!-- beforeEnd -->
 </p>
+<!-- afterEnd -->
 <script type="text/javascript" src="js.js"></script>
 </body>
 </html>
 ```
 
 ```javascript
-function $(id){
-    return document.getElementById(id);
-}//获取封装    
-var element = document.createElement('span');
-element.innerHTML = 'this is DOM'; 
-var span = $('type');//获取Id为type的标签span
-p.insertBefore(element,span);//在span插入element
+ var element = document.createElement('span');
+element.innerHTML = 'this is DOM';
+var span = $('type');
+p.insertAdjacentElement('afterBegin',element);
 ```
 
 
