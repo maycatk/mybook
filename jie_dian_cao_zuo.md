@@ -365,3 +365,5 @@ HTMLElement.prototype._defineSetter_("innerText",function(s){
 直接产生图片
 ```elm1.innerContent = '<img src = "a.png"/>';```
 产生字符串
+
+用```innerHTML```来修改内容会引起脚本的注入
