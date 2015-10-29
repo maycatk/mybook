@@ -1,6 +1,5 @@
 # WEB系统
 
-##WEB系统
 ###MVC
 - **M**odel 数据层  
 - **V**iew 视图层
