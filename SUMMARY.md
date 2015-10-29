@@ -25,7 +25,6 @@
 * [产品前端构架](productframeworkmd.md)
    * [协作流程](xie_zuo_liu_cheng.md)
        * [WEB系统](webxi_tong.md)
-       * 协作流程
        * [角色定义](jiao_se_ding_yi.md)
            * 协作流程
 * [Web前端开发实践](practicemd.md)
