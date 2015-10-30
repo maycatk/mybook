@@ -149,8 +149,8 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 - git reset 将当前分支回退到历史某个版本
   - git reset --mixed <commit> 默认
-  - git reset --soft
-  - git reset --hard
+  - git reset --soft 两个同传
+  - git reset --hard 复制到工作目录
 
 ```git reset --mixed e390b3```//回退版本号并将当前内容复制到暂存区
 
