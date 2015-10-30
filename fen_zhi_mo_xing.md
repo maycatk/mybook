@@ -17,10 +17,6 @@
     - production(master)
       - 默认分支
 
-
-
-
-
 2. 活动分支
     - feature
       - 从development创建
