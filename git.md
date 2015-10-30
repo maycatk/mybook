@@ -110,7 +110,9 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
  ```git checkout HEAD -- <file>```
  暂存区和工作目录一致
  
- 
+##总结
+
+
 
 
 
