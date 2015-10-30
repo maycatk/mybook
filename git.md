@@ -216,6 +216,7 @@ git init + git remote + git pull = ```git clone```
 
 [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
+[try github](https://try.github.io/levels/1/challenges/1)
 
 
 
