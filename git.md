@@ -182,7 +182,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
  修剪提交历史基线  "变基"
 
 ### rebse vs merge
-![](http://i13.tietuku.com/8ef7ea8d489b32des.png)
+![区分](http://i13.tietuku.com/8ef7ea8d489b32des.png)
 
 
 
