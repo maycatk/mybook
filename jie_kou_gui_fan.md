@@ -22,3 +22,5 @@
 ![同步数据](http://i13.tietuku.com/63d1ab37eaff2b8fs.png)
 
 ##异步接口
+
+![异步接口](http://i13.tietuku.com/0c141895dd0855d3s.png)
