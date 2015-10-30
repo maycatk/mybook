@@ -192,7 +192,11 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ```git tag v0.1 e39d0b2``` 
 可以直接```git checkout v0.1```操作不用输入hash
 
+> push、remote、fetch、pull、clone
 
+##远程操作
+- git push
+ 提交本地历史到
 
 
 
