@@ -23,3 +23,15 @@
 
 污染工作空间
 ####Local VCS 本地式
+- RCS(Revision Control System)
+- 协同开发不能满足需要
+
+####CVCS集中式
+- CVS
+- SVN
+- Perforce
+由中央服务器来控制保存版本
+
+好处：控制可控性高
+弊端：单点故障，控制流程性差
+
