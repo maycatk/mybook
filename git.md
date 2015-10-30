@@ -160,6 +160,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 - A^ :A上的父提交
 - A~n :在A之前的第n次提交
 
+###reset vs checkout
 
 
 
