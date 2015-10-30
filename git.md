@@ -123,4 +123,4 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 
 > git checkout --<filename>和git checkout <filename>  中的"--"的作用
-> 为了避免git checkout <branch>有重名冲突 "--"后跟<filename>
+> 为了避免git checkout <branch>有重名冲突 "--"后跟<filename>默认是文件名不是分支名
