@@ -13,7 +13,11 @@
 ![页面入口规范实例](http://i13.tietuku.com/ca30f4e88d7b1ad6s.png)
 ##同步数据规范
 
-![同步](http://i13.tietuku.com/b28ae4e930787eb1s.png)
+![同步数据](http://i13.tietuku.com/b28ae4e930787eb1s.png)
+
+- 基本信息
+- 预填数据
+- 注入接口
 
 
 ##
