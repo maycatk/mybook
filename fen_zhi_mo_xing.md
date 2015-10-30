@@ -11,7 +11,7 @@
 
 ##产品级的分支模型
 
-1. 常驻分支 *一旦建立就不会被更改*
+1. 常驻分支 *一旦生成就不会被更改*
     - development
       -从master创建
     - production(master)
