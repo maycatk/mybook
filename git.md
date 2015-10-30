@@ -93,7 +93,8 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 - git diff -cached[<reference>]
   - 暂存区与某次提交差异，默认为HEAD
 
-
+- git diff <reference>
+  - 工作目录与某次提交的差异
 
 
 
