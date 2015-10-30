@@ -172,6 +172,11 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
   - git stash list 查看stash区
   - git stash apply stash@{0} 收藏内容重新恢复到工作目录上面
   - git stash drop stash@{0} 删除
+  - 精简 stash pop = stash apply + stash drop
+
+- git merge 
+  合并分支
+  - merge fast-forward 
 
 
 
