@@ -27,7 +27,7 @@
        * [WEB系统](webxi_tong.md)
        * [角色定义](jiao_se_ding_yi.md)
        * [协作流程](xie2xie_zuo_liu_cheng.md)
-       * 职责说明
+       * [职责说明](zhi_ze_shuo_ming.md)
 * [Web前端开发实践](practicemd.md)
 * [markdown语法说明](markdown.md)
 
