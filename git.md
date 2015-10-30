@@ -112,7 +112,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
  
 ##总结
 
-![git](http://i11.tietuku.com/4cd3ab585a7bb6f7s.png)
+![git总结](http://i11.tietuku.com/4cd3ab585a7bb6f7s.png)
 
 
 
