@@ -44,7 +44,7 @@
   - 批量添加跟踪文件
   
     ```$ git add .``` 添加当前目录下所有的文件
-    ```git rm --cached```移除跟踪文件不在跟踪
+    ```git rm --cached```在暂存区删除此文件
 
 4. .gitignore 
   
