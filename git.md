@@ -28,6 +28,6 @@
 不显示隐藏文件
 ```defaults write com.apple.finder AppleShowAllFiles -bool false ```
 
-git会创建一个默认分支master
+**git会创建一个默认分支master**
 
 
