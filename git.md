@@ -96,6 +96,13 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 - git diff <reference>
   - 工作目录与某次提交的差异
 
+- 撤销本地修改
+  - ```git checkout -- <file>```
+
+
+- 撤销暂存区内容
+```git reset HEAD <file>```
+
 
 
 
