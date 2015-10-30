@@ -70,3 +70,8 @@
  
 - git log
   - 查看提交记录
+  - ```git log --oneline```   ```git log```
+
+
+
+  
