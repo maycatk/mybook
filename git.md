@@ -77,3 +77,13 @@
   
 - git中的alias命令
   - 长长命令行精简~~~~
+
+```git config alias.shortname <fullcommand>```
+
+
+```git
+git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bordblue)<%an>%Creset' --addrev-commit"
+
+
+
+```
