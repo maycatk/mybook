@@ -19,5 +19,6 @@
 - 预填数据
 - 注入接口
 
+![同步数据](http://i13.tietuku.com/63d1ab37eaff2b8fs.png)
 
 ##
