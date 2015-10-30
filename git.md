@@ -125,4 +125,4 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 > ```git checkout --<filename>```和```git checkout <filename>```  中的"--"的作用
 > 为了避免```git checkout <branch>```有重名冲突 "--"后跟```<filename>```默认是文件名不是分支名
 
-[点击cha'kan问题参照](http://stackoverflow.com/questions/6561142/difference-between-git-checkout-filename-and-git-checkout-filename)
+[点击查看问题参照](http://stackoverflow.com/questions/6561142/difference-between-git-checkout-filename-and-git-checkout-filename)
