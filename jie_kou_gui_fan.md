@@ -29,3 +29,6 @@
 - 输入数据
 - 输出结果
 
+**实例：**
+
+![异步规范](http://i13.tietuku.com/004ebd11e8cf7eefs.png)
