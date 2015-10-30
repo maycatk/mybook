@@ -87,6 +87,11 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ---
 
+- git diff
+显示不同版本的差异,工作目录渝暂存区的差异
+
+- git diff -cached[<reference>]
+  - 暂存区与某次提交差异，默认为HEAD
 
 
 
