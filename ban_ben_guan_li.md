@@ -15,5 +15,9 @@
 
 - "人肉"VCS  = =没有版本控制系统
 - LVCS本地 
-- CVCS集中式
-- DVCS分布式
+- CVCS集中式  如：SVN
+- DVCS分布式  如：GIT
+
+####人肉VCS
+坑比
+
