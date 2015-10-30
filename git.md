@@ -15,3 +15,8 @@
     - --local [默认，高优先级]：只影响本仓库   ```.git/config```
     - --global [中优先级] ： 影响到所有当前用户的git仓库  ```~/.gitconfig```
     - --system [低优先级] ： 影响到全系统的git仓库  ```/etc/gitconfig```
+
+1. git init 初始化仓库
+  - git init [path]
+  - git init [paht] --bare
+ ```git status``` 查看git仓库信息，没初始化是看不到的；
