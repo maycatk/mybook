@@ -144,7 +144,13 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ```git checkout -```回去上一个分支
   - git checkout -b issue-26  创建分支issue-26并移动
   - git branch -v 查看分支
-  - detached head! 分离状态下得HEAD 
+  - detached head! 分离状态下得HEAD 一般不要写操作读取就行了
+ 
+
+- git reset 将当前分支回退到历史某个版本
+  - git reset --mixed <commit> 默认
+  - git reset --soft
+  - git reset --hard
 
 
 
