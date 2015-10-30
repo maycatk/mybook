@@ -178,6 +178,12 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
   合并分支
   - merge fast-forward 
 
+- git rebase  
+ 修剪提交历史基线  "变基"
+
+### rebse vs merge
+![](http://i13.tietuku.com/8ef7ea8d489b32des.png)
+
 
 
 
