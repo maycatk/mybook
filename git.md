@@ -170,6 +170,8 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
   - 保存目前的工作目录和暂存状态，并返回到干净的工作空间
   - git stash save 'push to stash area'  推到stash区
   - git stash list 查看stash区
+  - git stash apply stash@{0} 收藏内容重新恢复到工作目录上面
+  - git stash drop stash@{0} 删除
 
 
 
