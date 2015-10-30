@@ -129,4 +129,39 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 
 ##分支操作
+- git branch  分支的增删查改
+  - git branch <branchName> 创建分支
+  - git branch -d <branchName> 删除指定分支 
+  - git branch -v 显示所有分支信息
+
+- 使用
+  - git checkout用来移动HEAD
+  - git checkout <branchName> 直接指向目标分支
+  - git checkout -b <branchName> 直接创建分支并指向
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
