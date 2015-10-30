@@ -72,6 +72,5 @@
   - 查看提交记录
   - ```git log --oneline```   ```git log```
 
-
-
+> git log 可以获得提交作者、提交信息、表示提交的hash值信息
   
