@@ -126,3 +126,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 > 为了避免```git checkout <branch>```有重名冲突 "--"后跟```<filename>```默认是文件名不是分支名
 
 [点击查看问题参照](http://stackoverflow.com/questions/6561142/difference-between-git-checkout-filename-and-git-checkout-filename)
+
+
+##分支操作
+
