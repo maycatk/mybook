@@ -24,3 +24,6 @@
       - 从master创建
     - release:如release-110
       - 从development分支创建
+
+##特性开发
+![特性图](http://i13.tietuku.com/c1d0083537fe3703t.jpg)
