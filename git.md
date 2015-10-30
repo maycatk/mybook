@@ -17,7 +17,7 @@
     - --system [低优先级] ： 影响到全系统的git仓库  ```/etc/gitconfig```
 
 
-1. git init 初始化仓库
+- git init 初始化仓库
   - git init [path]
   - git init [paht] --bare
   - rm -rf .git #添加r参数，指定删除目录 
@@ -33,31 +33,30 @@
 
     **git会创建一个默认分支master**
 
-2. git status
+- git status
 
   - 对状态的跟踪，了解状态变化
 
     ```touch``` 在当前目录下创建一个新文件
     
     
-3. git add 
+- git add 
 
   - 添加文件内容到暂存区(同时文件被跟踪)
   - 批量添加跟踪文件
        
 ```$ git add .``` 添加当前目录下所有的文件
     
-
-
-4. \.gitignore 
+- \.gitignore 
 
   
   - 在添加时**忽略**匹配的文件
   - 仅作用于**未跟踪**的文件
   - 只是忽略文件
 
-5. 从暂存区删除git-rm
 
+- 从暂存区删除git-rm
+ 
   - ```git rm --cached```仅在暂存区删除此文件
   - ```git rm :```从暂存区和工作目录都删除
   - ```git rm $(git ls-files-deleted)```删除所有被跟踪，但是在工作目录被删除的文件
