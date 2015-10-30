@@ -16,28 +16,33 @@
     - --global [中优先级] ： 影响到所有当前用户的git仓库  ```~/.gitconfig```
     - --system [低优先级] ： 影响到全系统的git仓库  ```/etc/gitconfig```
 
+
 1. git init 初始化仓库
   - git init [path]
   - git init [paht] --bare
   - rm -rf .git #添加r参数，指定删除目录 
-  - 
-```git status``` 查看git仓库信息，没初始化是看不到的；
 
-拓展MAC下显示隐藏文件
-```defaults write com.apple.finder AppleShowAllFiles -bool true```
-不显示隐藏文件
-```defaults write com.apple.finder AppleShowAllFiles -bool false ```
+    ```git status``` 查看git仓库信息，没初始化是看不到的；
 
-**git会创建一个默认分支master**
+    拓展MAC下显示隐藏文件
+
+    ```defaults write com.apple.finder AppleShowAllFiles -bool true```
+
+    不显示隐藏文件
+    ```defaults write com.apple.finder AppleShowAllFiles -bool false ```
+
+    **git会创建一个默认分支master**
 
 2. git status
-- 对状态的跟踪，了解状态变化
 
-```touch``` 在当前目录下创建一个新文件
+  - 对状态的跟踪，了解状态变化
+
+    ```touch``` 在当前目录下创建一个新文件
 3. git add 
 
-- 添加文件内容到暂存区(同时文件被跟踪)
-- 批量添加跟踪文件
-```$ git add .``` 添加当前目录下所有的文件
+  - 添加文件内容到暂存区(同时文件被跟踪)
+  - 批量添加跟踪文件
+  
+    ```$ git add .``` 添加当前目录下所有的文件
 
 
