@@ -115,6 +115,8 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ![git总结](http://i11.tietuku.com/4cd3ab585a7bb6f7s.png)
 
 
+
+
 ---
 
 > branch、checkout、reset、reset-vs-checkout、merge、rebase、rebase-vs-merge、tag
