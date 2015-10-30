@@ -12,9 +12,9 @@
 ##产品级的分支模型
 
 1. 常驻分支 *一旦建立就不会被更改*
-  - development
+    - development
       -从master创建
-  - production(master)
+    - production(master)
       - 默认分支
 
 
@@ -22,3 +22,9 @@
 
 
 2. 活动分支
+    - feature
+      - 从development创建
+    - hotfix：如hotfix-36
+      - 从master创建
+    - release:如release-110
+      - 从development分支创建
