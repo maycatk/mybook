@@ -184,6 +184,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 ### rebse vs merge
 ![区分](http://i13.tietuku.com/8ef7ea8d489b32des.png)
 
+> 不要再共有分支master分支上使用rebase
 
 
 
