@@ -19,4 +19,5 @@
 1. git init 初始化仓库
   - git init [path]
   - git init [paht] --bare
+  - rm -rf .git #添加r参数，指定删除目录 
  ```git status``` 查看git仓库信息，没初始化是看不到的；
