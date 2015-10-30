@@ -105,8 +105,12 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 将文件内容从上次提交复制到暂存区 = 暂存区没有进行修改
 
+- 撤销全部改动
 
-
+ ```git checkout HEAD -- <file>```
+ 暂存区和工作目录一致
+ 
+ 
 
 
 
