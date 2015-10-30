@@ -83,7 +83,12 @@
 
 ```git
 git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bordblue)<%an>%Creset' --addrev-commit"
-
-
-
 ```
+
+---
+
+
+
+
+
+
