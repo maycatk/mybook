@@ -196,9 +196,20 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ##远程操作
 - git push
- 提交本地历史到
+ 提交本地历史到远程
+- 配置远程映射
+    - gitremote add origin ~/git-server  添加一个远程仓库别名
+    - git remote -v 查看远程仓库信息
 
+###push冲突
+- git fetch
+  获取远程仓库的提交历史
+- git fetch + merge
+- git pull = git fetch + git merge
 
+###完整获取远程仓库
+
+git init + git remote + git pull = ```git clone```
 
 
 
