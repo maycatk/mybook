@@ -26,5 +26,5 @@
       - 从development分支创建
 
 ##特性开发
-![特性图](http://i13.tietuku.com/c1d0083537fe3703t.jpg)
+![特性图](http://i13.tietuku.com/c1d0083537fe3703s.png)
 [讲解](http://mooc.study.163.com/learn/NEU-1000054002?tid=1000102002#/learn/content?type=detail&id=1000309188)
