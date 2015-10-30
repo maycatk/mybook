@@ -212,6 +212,9 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 git init + git remote + git pull = ```git clone```
 
 
+其他参考资料：
+
+[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
 
 
