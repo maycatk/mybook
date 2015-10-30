@@ -138,8 +138,10 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
   - git checkout用来移动HEAD
   - git checkout <branchName> 直接指向目标分支
   - git checkout -b <branchName> 直接创建分支并指向
+  - git checkout <reference>
+ 
 
-
+```git checkout -```回去上一个分支
 
 
 
