@@ -218,7 +218,7 @@ git init + git remote + git pull = ```git clone```
 
 - [try github](https://try.github.io/levels/1/challenges/1)
 
-- [pro git Book](https://git-scm.com/book/zh/v2)
+- [Pro git Book](https://git-scm.com/book/zh/v2)
 
 
 
