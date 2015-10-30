@@ -34,7 +34,7 @@
        * [本地开发](ben_di_kai_fa.md)
    * [版本管理](ban_ben_guan_li.md)
        * [分支模型](fen_zhi_mo_xing.md)
-       * Git
+       * [Git](git.md)
 * [Web前端开发实践](practicemd.md)
 * [markdown语法说明](markdown.md)
 
