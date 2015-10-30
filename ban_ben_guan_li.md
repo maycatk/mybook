@@ -13,4 +13,7 @@
 
 版本控制系统```VCS（version control system）```是一种记录若干文件的修订记录系统，可查阅或回到某个历史版本
 
-- 
+- "人肉"VCS
+- LVCS本地
+- CVCS集中式
+- DVCS分布式
