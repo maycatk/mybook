@@ -188,6 +188,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 - git tag
   对某个提交设置一个不变的别名
+
 ```git tag v0.1 e39d0b2``` 
 
 
