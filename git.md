@@ -161,7 +161,7 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 - A~n :在A之前的第n次提交
 
 ###reset vs checkout
-
+![](http://i13.tietuku.com/09f9ca58ee42bb68s.png)
 
 
 
