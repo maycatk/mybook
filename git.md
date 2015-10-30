@@ -102,6 +102,9 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 - 撤销暂存区内容
 ```git reset HEAD <file>```
+将文件内容从上次提交复制到暂存区 = 暂存区没有进行
+修改
+
 
 
 
