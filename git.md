@@ -22,7 +22,7 @@
   - rm -rf .git #添加r参数，指定删除目录 
   - 
 ```git status``` 查看git仓库信息，没初始化是看不到的；
-- 拓展MAC下显示隐藏文件
+拓展MAC下显示隐藏文件
 ```defaults write com.apple.finder AppleShowAllFiles -bool true```
 不显示隐藏文件
 ```defaults write com.apple.finder AppleShowAllFiles -bool false ```
