@@ -214,9 +214,11 @@ git init + git remote + git pull = ```git clone```
 
 其他参考资料：
 
-[git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
+- [git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
 
-[try github](https://try.github.io/levels/1/challenges/1)
+- [try github](https://try.github.io/levels/1/challenges/1)
+
+- [pro git](https://git-scm.com/book/zh/v2)
 
 
 
