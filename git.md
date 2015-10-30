@@ -166,8 +166,8 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 
 
-- git seash
-  - 保存目前的工作目录和暂存状态，并返回到干净的
+- git stash
+  - 保存目前的工作目录和暂存状态，并返回到干净的工作空间
 
 
 
