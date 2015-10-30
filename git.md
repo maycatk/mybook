@@ -154,6 +154,11 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 ```git reset --mixed e390b3```//回退版本号并将当前内容复制到暂存区
 
+- git reflog 查找之前hash的信息
+
+###reset捷径
+- A^ :A上的父提交
+- A~n :在A之前的第n次提交
 
 
 
