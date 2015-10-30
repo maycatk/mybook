@@ -152,6 +152,9 @@ git config --glocal alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
   - git reset --soft
   - git reset --hard
 
+```git reset --mixed e390b3```//回退版本号并将当前内容复制到暂存区
+
+
 
 
 
