@@ -6,7 +6,9 @@
    - add
 ```javascript
 function fillSelect(select,list){
-    
+    for(var i = select.length -1;i>0;i--){
+        select.remove(i);    
+    }
 }
 
 ```
