@@ -20,7 +20,7 @@ chapterSelect.addEventListener(
     'change',fucntion(event){
         var value = event,target.value,
             list = sections[value]||[];
-        fillSelect(sectionSelect,list);
+        fillSelect(sectionSelect,list);//当有变化时填充
     }
 );
 ```
