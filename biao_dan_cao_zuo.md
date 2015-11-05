@@ -7,8 +7,12 @@
 ```javascript
 function fillSelect(select,list){
     for(var i = select.length -1;i>0;i--){
-        select.remove(i);    
+        select.remove(i);//倒序遍历    
     }
+    list.forEach(funciton(data){
+        var option = new Option(data.text,data.value);
+        select.add(option);//添加属性
+    });
 }
-
+fillSelect(chapterSelect,chapters);
 ```
