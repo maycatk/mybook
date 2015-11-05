@@ -14,5 +14,13 @@ function fillSelect(select,list){
         select.add(option);//添加属性
     });
 }
-fillSelect(chapterSelect,chapters);
+fillSelect(chapterSelect,chapters);//章的数据去填充章的选择器
+
+chapterSelect.addEventListener(
+    'change',fucntion(event){
+        var value = event,target.value,
+            list = sections[value]||[];
+        fillSelect(sectionSelect,list);
+    }
+);
 ```
