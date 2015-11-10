@@ -108,6 +108,12 @@ child{
 /*只需要给父元素设置元素 缺点是兼容性/
 ```
 ---
+
 ##居中
 
+1. ```inline-block + text-align + table-cell + vertical-align```
+
+```css
+
+```
 
