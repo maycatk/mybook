@@ -6,7 +6,7 @@
 - float + margin
 
 优点：容易理解
-缺点：IE7以下有兼容问题 在IE6上面会有3PX bug；在```.left```css里面加上 ```padding-right:-100px;``` hack
+缺点：IE7以下有兼容问题 在IE6上面会有3PX bug；在```.left```css里面加上 ```padding-right:-100px;``` hack;
 ```html
 <!DOCTYPE html>
 <html lang="en">
