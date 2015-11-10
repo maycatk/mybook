@@ -206,3 +206,16 @@ child{
 }
 /*兼容性较好，IE8也支持；IE67下可改用table结构，inline-block兼容用zoom:1*/
 ```
+
+
+---
+
+实现一个幻灯布局
+![幻灯布局](http://i12.tietuku.com/ca3a12c44d90ffb0s.png)
+已知结构如下：
+<div class="slide">
+	<!-- 图片省略 -->
+	<!-- 以下是指示器 -->
+	<div class="pointer"><i></i><i></i><i></i></div>
+</div>
+要求如下：幻灯（slide）宽高未知，指示器（pointer）在底部且水平居中，距离底部10px，指示器中的圆直径为10px，个数未知，背景为黑色，间距为5px，请完成CSS。
