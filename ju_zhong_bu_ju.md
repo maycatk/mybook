@@ -103,7 +103,9 @@ child{
 ```css
 .parent{
     display:flex;
+    align-items:center;
 }
+/*只需要给父元素设置元素 缺点是兼容性/
 ```
 
 
