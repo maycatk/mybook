@@ -114,6 +114,13 @@ child{
 1. ```inline-block + text-align + table-cell + vertical-align```
 
 ```css
-
+.parent{
+    text-align:center
+    display:table-cell;
+    vertical-align:middle;
+}
+.child{
+    display:inline-block;
+}
 ```
 
