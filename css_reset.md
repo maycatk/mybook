@@ -28,3 +28,4 @@ body,textarea,input,button,select,keygen,legend{font:12px/1.14 arial,simsun;colo
 body{background:#fff;}
 a,a:hover{color:#333;}
 ```
+**cssreset**.css必须放在html最前面
