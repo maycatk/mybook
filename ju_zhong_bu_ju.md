@@ -123,7 +123,7 @@ child{
 .child{
 	display: inline-block;
 }
-/*优点，只用设置父元素；缺点兼容性不高*/
+/*优点，兼容性高，不支持table可以把结构改成table，inline-block可以加zoom:1*/
 ```
 - ```absolute + transform```
 
