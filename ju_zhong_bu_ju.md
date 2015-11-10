@@ -68,5 +68,27 @@ child{
 
 缺点```flex```在IE678不支持
 
+---
+
 ##垂直居中
+```html
+<div class="parent">
+    	<div class="child">DEMO</div>
+	</div>
+```
+
+1. ```table-cell + vertical-align```
+
+```css
+.parent{
+    display: table-cell;
+    vertical-align:middle;
+}
+
+```
+
+
+
+
+
 
