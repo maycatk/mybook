@@ -98,6 +98,12 @@ child{
     transform:translateY(-50%);
 }
 ```
-3. 
+3. ```flex + align-items```
+
+```css
+.parent{
+    display:flex;
+}
+```
 
 
