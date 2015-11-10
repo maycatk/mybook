@@ -144,5 +144,10 @@ child{
 - ```flex + justfy-content + align-items```
 
 ```css
-
+.parent{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+/*优点，只用设置父元素；缺点兼容性不高*/
 ```
