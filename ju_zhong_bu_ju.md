@@ -139,7 +139,7 @@ child{
 	transform:translate(-50%,-50%);
 }
 
-/*子元素对其他没有影响；缺点兼容性不高*/
+/*子元素对其他没有影响；缺点transform*/
 ```
 - ```flex + justfy-content + align-items```
 
