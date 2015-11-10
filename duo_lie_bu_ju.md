@@ -44,7 +44,7 @@
 	<title>多列布局</title>
 	<style type="text/css">
 *{margin:0;padding: 0;}
-.left{float: left;width: 100px;background: #ececec;}
+.left{float: left;width: 100px;background: #ececec;position:relative;} /*提高层级*/
 .right-fix{float: right;width: 100%;margin-left: -100px;} /*hack使得清除浮动后没有BUG*/
 .right{margin-left:120px;background: #bababa;}
 	</style>
