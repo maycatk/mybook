@@ -136,7 +136,7 @@ child{
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform:translate(-50%,50%);
+	transform:translate(-50%,-50%);
 }
 
 /*子元素对其他没有影响；缺点兼容性不高*/
