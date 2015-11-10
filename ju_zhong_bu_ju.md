@@ -109,21 +109,11 @@ child{
 ```
 ---
 
-##居中
+
 
 1. ```inline-block + text-align + table-cell + vertical-align```
 
-```css
-.parent{
-    text-align:center
-    display:table-cell;
-    vertical-align:middle;
-}
-.child{
-    display:inline-block;
-}
-/*优点：兼容性比较高*/
-```
+
 
 2. ```absolute + transform```
 
