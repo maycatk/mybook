@@ -1,10 +1,15 @@
 # CSS Reset
 
 清除默认样式
+
 全局样式定义
+
 统一产品样式
+
 减少工作量
+
 - Reset First
+
 项目开发初期就应该定义好
 **cssreset**.css必须放在html最前面
 
