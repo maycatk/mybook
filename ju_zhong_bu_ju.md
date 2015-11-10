@@ -125,3 +125,5 @@ child{
 /*优点：兼容性比较高*/
 ```
 
+2. ```absolute + transform```
+
