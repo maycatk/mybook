@@ -97,5 +97,51 @@
 ![自适应布局](http://img1.ph.126.net/CmctGQgqoxz51SjXdGw3-Q==/6630878649699201619.png)
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>实现一个自适应布局</title>
+	<style type="text/css">
+*{margin:0;padding: 0;}
+.content{
+	width: 100%;
+	margin: 0 auto;
+	background: red;
+	text-align: center;
+}
+.left{
+	float: left;
+	width: 100px;
+	background: #ff0;
+	position: relative;
+}
+.main-fix{
+	float: left;
+	margin-left: -100px;
+	margin-right: -100px;
+	width: 100%;
+}
+.main{
+	background:pink;
+	margin:0 120px;
+}
 
+.right{
+	float: right;
+	width: 100px;
+	background: blue;
+}
+	</style>
+</head>
+<body>
+	<div class="content">
+		<div class="left">左侧定宽</div>
+		<div class="main-fix">
+		<div class="main">中间自适应</div>
+		</div>
+		<div class="right">右侧定宽</div>
+	</div>
+</body>
+</html>
 ```
