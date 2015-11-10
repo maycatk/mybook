@@ -125,5 +125,24 @@ child{
 }
 /*优点，只用设置父元素；缺点兼容性不高*/
 ```
-- ``````
+- ```absolute + transform```
 
+```css
+.parent{
+	position: relative;
+	
+}
+.child{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform:translate(-50%,50%);
+}
+
+/*子元素对其他没有影响；缺点兼容性不高*/
+```
+- ```flex + justfy-content + align-items```
+
+```css
+
+```
