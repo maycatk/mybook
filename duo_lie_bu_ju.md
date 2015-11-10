@@ -16,6 +16,7 @@
 	<meta charset="UTF-8">
 	<title>多列布局</title>
 	<style type="text/css">
+*{margin:0;padding: 0;}
 .left{float: left;width: 100px;background: #ececec;}
 .right{margin-left:120px;background: #bababa;}
 	</style>
