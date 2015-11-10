@@ -159,3 +159,50 @@ child{
 ###课后讨论
 水平列表的底部对齐
 一个水平排列的列表，每项高度都未知，但要求底部对齐
+```css
+/*初始化*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*li元素设置*/
+.content li{
+    text-align: center;
+}
+.l1{
+    background: #B8E986;
+    padding:50px 50px;
+}
+.l2{
+    background: #F5A623;
+    padding: 20px 50px;
+}
+.l3{
+    background: #D0021B;
+    padding: 40px 50px;
+}
+.l4{
+    background: #BD10E0;
+    padding:100px 50px;/*假定不定高度固定宽度*/
+}
+/*方法1：父元素设置flex + align-items:flex-end*/
+.content{
+    display: -webkit-flex;
+    display: flex;
+    align-items:flex-end;
+}
+/*优点：只用设置父元素；缺点：兼容性不行*/
+/*方法2：设置display:table-cell*/
+.content{
+    text-align: center;
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 0;/*消除空隙*/
+ 
+}
+.content li{
+    display: inline-block;
+}
+/*兼容性较好，IE8也支持；IE67下可改用table结构，inline-block兼容用zoom:1*/
+```
