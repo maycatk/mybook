@@ -5,5 +5,5 @@
 
 不同产品和工作需求需要的**cssreset**不一样
 
-CSS Reset实例
+CSS Reset实例代码
 
