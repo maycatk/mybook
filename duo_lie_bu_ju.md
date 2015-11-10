@@ -37,6 +37,32 @@
 - 改进方案
 
 ```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多列布局</title>
+	<style type="text/css">
+*{margin:0;padding: 0;}
+.left{float: left;width: 100px;background: #ececec;}
+.right-fix{float: right;width: 100%;margin-left: -100px;} /*hack使得清除浮动后没有BUG*/
+.right{margin-left:120px;background: #bababa;}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="left">
+			<p>left</p>
+		</div>
+		<div class="right-fix"> //增加一个容器结构
+			<div class="right">
+				<p>right</p>
+				<p>right</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
 
 ```
 
