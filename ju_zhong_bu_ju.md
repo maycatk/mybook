@@ -49,5 +49,21 @@ child{
 4. ```flex + justify-content```
 
 ```css
+.parent{
+	display: flex;
+	justify-content:center; 
+}
 
+/*优点，只用设置父元素*/
 ```
+```css
+.parent{
+	display: flex;
+}
+.child{
+	margin: 0 auto;
+}
+/*同样的效果*/
+```
+
+缺点```flex```在IE678不支持
