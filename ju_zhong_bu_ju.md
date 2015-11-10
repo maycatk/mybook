@@ -114,7 +114,16 @@ child{
 
 - ```inline-block + text-align + table-cell + vertical-align```
 
+```css
+.parent{
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+.child{
+	display: inline-block;
+}
+/*优点，只用设置父元素；缺点兼容性不高*/
+```
 
-
-2. ```absolute + transform```
 
