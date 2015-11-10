@@ -9,7 +9,7 @@
 
 ##水平居中
 
-1. ```inline-block + text-align```
+- ```inline-block + text-align```
 
 ```css
 child{
@@ -22,7 +22,7 @@ child{
 /*兼容性比较好，在IE67下display：inline-block;加zoom:1*/
 /*缺点，child会继承到text-align:center;child不需要居中的话，需要加一句text-align:left;*/
 ```
-2. ```table + margin```
+- ```table + margin```
 
 ```css
 .child{
@@ -32,7 +32,7 @@ child{
 /*只用设置一个属性，IE8也支持属性*/
 /*兼容IE67 html换成table*/
 ```
-3. ```absolute + transform```
+- ```absolute + transform```
 
 ```css
 .parent{
@@ -46,7 +46,7 @@ child{
 /*子元素不会对其他元素产生影响*/
 /*缺点transform是CSS3新属性，兼容性不行*/
 ```
-4. ```flex + justify-content```
+- ```flex + justify-content```
 
 ```css
 .parent{
@@ -77,7 +77,7 @@ child{
 	</div>
 ```
 
-1. ```table-cell + vertical-align```
+- ```table-cell + vertical-align```
 
 ```css
 .parent{
@@ -86,7 +86,7 @@ child{
 }
 /*兼容性比较好IE8也支持，支持67 html换成table*/
 ```
-2. ```absolute + transform```
+- ```absolute + transform```
 
 ```css
 .parent{
@@ -98,7 +98,7 @@ child{
     transform:translateY(-50%);
 }
 ```
-3. ```flex + align-items```
+- ```flex + align-items```
 
 ```css
 .parent{
@@ -109,9 +109,10 @@ child{
 ```
 ---
 
+##居中
 
 
-1. ```inline-block + text-align + table-cell + vertical-align```
+- ```inline-block + text-align + table-cell + vertical-align```
 
 
 
