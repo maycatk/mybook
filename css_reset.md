@@ -8,7 +8,7 @@
 
 减少工作量
 
-- Reset First
+**Reset First**
 
 项目开发初期就应该定义好
 **cssreset**.css必须放在html最前面
