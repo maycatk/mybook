@@ -5,6 +5,8 @@
 
 - float + margin
 
+优点：容易理解
+缺点：IE7以下有兼容问题
 ```html
 <!DOCTYPE html>
 <html lang="en">
