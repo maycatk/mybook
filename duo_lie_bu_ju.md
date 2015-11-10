@@ -6,7 +6,7 @@
 - float + margin
 
 优点：容易理解
-缺点：IE7以下有兼容问题 在IE6上面会有3PX bug；在```.left```css里面加上 ```padding-right:-100px;``` hack;两个元素都有浮动 子元素p如果清除浮动会有BUG
+缺点：IE7以下有兼容问题 在IE6上面会有3PX bug；在```.left```css里面加上 ```padding-right:-100px;``` hack;两个元素都有浮动 子元素p如果清除浮动会有BUG 文字会掉位置；
 ```html
 <!DOCTYPE html>
 <html lang="en">
