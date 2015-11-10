@@ -215,9 +215,35 @@ child{
 ![幻灯布局](http://i12.tietuku.com/ca3a12c44d90ffb0s.png)
 
 已知结构如下：
+
+```html
 <div class="slide">
 	<!-- 图片省略 -->
 	<!-- 以下是指示器 -->
 	<div class="pointer"><i></i><i></i><i></i></div>
 </div>
+```
 要求如下：幻灯（slide）宽高未知，指示器（pointer）在底部且水平居中，距离底部10px，指示器中的圆直径为10px，个数未知，背景为黑色，间距为5px，请完成CSS。
+
+```css
+/*用定位的方法*/
+.slide{
+    height: 300px;
+    background: #4A90E2;
+    position: relative;
+}
+.pointer{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.pointer i{
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;//IE9以下不能兼容
+    font-size: 0;//清除空隙
+        background-color: black;
+        cursor: pointer;
+}
+```
