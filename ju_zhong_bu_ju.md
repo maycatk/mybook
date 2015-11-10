@@ -84,11 +84,13 @@ child{
     display: table-cell;
     vertical-align:middle;
 }
+/*兼容性比较好IE8也支持，支持67 html换成table*/
+```
+2. ```absolute + transform```
+
+```css
 
 ```
-
-
-
 
 
 
