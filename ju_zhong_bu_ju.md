@@ -122,5 +122,6 @@ child{
 .child{
     display:inline-block;
 }
+/*优点：兼容性比较高*/
 ```
 
