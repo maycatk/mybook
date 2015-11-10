@@ -89,8 +89,15 @@ child{
 2. ```absolute + transform```
 
 ```css
-
+.parent{
+    position:relative;
+}
+.child{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+}
 ```
-
+3. 
 
 
