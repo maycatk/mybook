@@ -22,6 +22,10 @@ child{
 /*兼容性比较好，在IE67下display：inline-block;加zoom:1*/
 /*缺点，child会继承到text-align:center;child不需要居中的话，需要加一句text-align:left;*/
 ```
+2.```table + margin```
 
+```css
+
+```
 
 
