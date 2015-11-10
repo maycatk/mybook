@@ -35,6 +35,19 @@ child{
 3. ```absolute + transform```
 
 ```css
+.parent{
+	position: relative;
+}
+.child{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+}
+/*子元素不会对其他元素产生影响*/
+/*缺点transform是CSS3新属性，兼容性不行*/
+```
+4. ```flex + justify-content```
+
+```css
 
 ```
-
