@@ -211,7 +211,9 @@ child{
 ---
 
 实现一个幻灯布局
+
 ![幻灯布局](http://i12.tietuku.com/ca3a12c44d90ffb0s.png)
+
 已知结构如下：
 <div class="slide">
 	<!-- 图片省略 -->
