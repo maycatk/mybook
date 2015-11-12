@@ -252,6 +252,8 @@
 ### 等分布局
 ![等分布局](http://i13.tietuku.com/abafe22a9bda4ad4s.png)
 
+公式：C = W * N + G*N -G
+
 
 
 ## 课后讨论
