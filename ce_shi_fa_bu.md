@@ -22,4 +22,9 @@
 实现代码合并压缩打包
 
 - 打包配置
+
+- 输入输出
 ![打包配置](http://i13.tietuku.com/c1ebffb9e9a5fa02s.png)
+
+- 图片优化
+![图片优化配置](http://i13.tietuku.com/9718436bfd273df3s.png)
