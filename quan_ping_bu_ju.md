@@ -152,3 +152,4 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 
 ### 方案对比
 
+![方案](http://i13.tietuku.com/cf81bf17f4790d33s.png)
