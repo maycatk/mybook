@@ -110,6 +110,8 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 
 ### 靠内容自适应
 
+![例题](http://i13.tietuku.com/cc606b1e20543413s.png)
+
 - flex
 - grid 
 
