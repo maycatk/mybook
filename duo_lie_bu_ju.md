@@ -211,6 +211,46 @@
     <!-- left由内容决定宽度 -->
 }
 ```
+- flex
+
+```css
+.parent{
+    display: flex;
+    /*宽度自动跟着内容走*/
+}
+.right{
+    flex:1;
+    background: blue;
+
+}
+.left{
+    margin-right: 20px;
+    background: red;
+}
+.left p{
+    width:200px;
+    <!-- 宽度跟着内容 -->
+}
+```
+### 不定宽+不定宽+自适应
+
+```css
+.left,.center{
+    float: left;
+    margin-right: 20px;
+    background: blue;
+}
+.right{
+    overflow: hidden;
+    background: red;
+}
+.left p,.center p{
+    width: 100px;
+    /*内容决定*/
+}
+```
+### 等分布局
+
 
 
 
