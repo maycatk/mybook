@@ -80,7 +80,25 @@ html结构
 css 结构
 
 ```css
-
+html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
+.parent{display: flex;flex-direction:column;} /*列布局*/
+.top{height: 100px;background-color: red;}
+.bottom{height: 50px;background-color: grey;}
+.middle{flex:1;background-color: pink;display: flex;}
+/*没设置方向还是默认水平方向排列*/
+.left{
+	width: 100px;
+	background-color: #fefefe;
+}
+.right{
+	flex:1;
+	overflow: auto;
+	background-color: #ededed;
+}
+.right .inner{
+	min-height: 1000px; 
+}
+/*IE9及以下*/
 ```
 
 
