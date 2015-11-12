@@ -29,3 +29,9 @@ js放body底部
 
 - 减少标签数量
 
+- 选择器长度 已短为准
+- 耗能属性
+  - ecpression
+  - filter
+  - border-radius
+  - gradients
