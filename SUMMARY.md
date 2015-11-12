@@ -29,7 +29,6 @@
        * [居中布局](ju_zhong_bu_ju.md)
        * [多列布局](duo_lie_bu_ju.md)
        * [全屏布局](quan_ping_bu_ju.md)
-* 响应式
 * [响应式](xiang_ying_shi.md)
 * [产品前端构架](productframeworkmd.md)
    * [协作流程](xie_zuo_liu_cheng.md)
