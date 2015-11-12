@@ -101,7 +101,9 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 /*IE9及以下*/
 ```
 ---
-需求改变百分比
+
+- 需求改变百分比
+
 定高定宽PX换成百分比换算成百分比就行
 --
 
