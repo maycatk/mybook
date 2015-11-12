@@ -67,11 +67,104 @@
 ```
 - folat + overflow
 
-2015-11-10 22:11:11
+```css
+.left{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    background: red;
+}
+.right{
+    overflow: hidden;
+    /*ie6不支持*/
+    background: blue;
+}
+```
+- table
 
+```css
+.parent{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 
+    /*实现布局优先，加速table渲染*/
 
+}
+.right{
+    background: blue;
 
+}
+.left,.right{
+    display: table-cell;    
+}
+.left{
+    width: 100px;
+    padding-right: 20px;
+    background: red;
+}
+```
+
+> 这个方法并没有什么卵用，padding-right下left内容空隙还是和background融合了；
+
+- flex
+
+```css
+.parent{
+    display: flex;
+    /*宽度自动跟着内容走*/
+}
+.right{
+    flex:1;
+    background: blue;
+
+}
+.left{
+    width: 100px;
+    margin-right: 20px;
+    background: red;
+}
+/*兼容性，flex是根据内容做改动；一般使用在小范围布局中*/
+```
+
+### 多列定宽一列自适应
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testhtml</title>
+    <style type="text/css">
+.left,.center{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+    background: blue;
+}
+.right{
+    overflow: hidden;
+    background: red;
+}
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left">
+        <p>left</p>
+        </div>
+        <div class="center">
+            <p>center</p>
+        </div>
+        <div class="right">
+            <p>right</p>
+            <p>right</p>
+        </div>
+    </div>
+</body>
+</html>
+```
 
 
 
