@@ -377,7 +377,6 @@
 }
 .right{
     background: blue;
-
 }
 .left,.right{
     display: table-cell;    
