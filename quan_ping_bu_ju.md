@@ -110,7 +110,21 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 
 ### 靠内容自适应
 
+- flex
+- grid 
 
+####flex
 
+```html
+<div class="parent">
+		<div class="top">top</div>
+		<div class="middle">
+			<div class="left">left</div>
+			<div class="right"><div class="inner">right</div></div>
+		</div>
+		<div class="bottom">bottom</div>
+	</div>
+```
+```css
 
-
+```
