@@ -374,7 +374,6 @@
     width: 100%;
     table-layout:fixed;
     /*实现布局优先，加速table渲染*/
-
 }
 .right{
     background: blue;
