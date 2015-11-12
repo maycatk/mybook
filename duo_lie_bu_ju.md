@@ -256,9 +256,74 @@
 
 - float
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testhtml</title>
+	<style type="text/css">
+.parent{
+	margin-left: -20px;
+}
+.coulumn{
+	float: left;
+	width: 25%;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+/*兼容性可以IE8以上，缺点不同列要修改css*/
+	</style>
+</head>
+<body>
+	<div class="parent">
+	    <div class="coulumn"><p>1</p></div>
+	    <div class="coulumn"><p>2</p></div>
+	    <div class="coulumn"><p>3</p></div>
+	    <div class="coulumn"><p>4</p></div>
+	</div>
+</body>
+</html>
+```
 
+- table
 
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testhtml</title>
+	<style type="text/css">
+.parent-fix{
+	margin-left: -20px;
+}
+.parent{
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	/*1.布局优先；2.单元格宽度默认平分*/
+}
+.coulumn{
+	display: table-cell;
+	padding-left: 20px;
+}
+/*不管多少列都可以平分，缺点是修改html框架*/
+	</style>
+</head>
+<body>
+<div class="parent-fix">
+	<div class="parent">
+	    <div class="coulumn"><p>1</p></div>
+	    <div class="coulumn"><p>2</p></div>
+	    <div class="coulumn"><p>3</p></div>
+	    <div class="coulumn"><p>4</p></div>
+	</div>
+</div>
+<!-- 添加修改增加20px；框架 -->
+</body>
+</html>
+```
 
 ## 课后讨论
 
