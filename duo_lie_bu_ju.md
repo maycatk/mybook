@@ -381,7 +381,10 @@
 .left,.right{
     display: table-cell;    
 }
-
+.left{
+    width: 100px;
+    padding-right: 20px;
+}
 ```
 
 
