@@ -408,7 +408,7 @@ display:flex;}
 ```
 - float
 
-> 伪等高，兼容性
+> 伪等高，兼容性较好
 
 ```css
 .parent{
