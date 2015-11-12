@@ -28,3 +28,9 @@
 
 - 图片优化
 ![图片优化配置](http://i13.tietuku.com/9718436bfd273df3s.png)
+
+- CDN配置
+![CDN](http://i13.tietuku.com/5970cf45c3b06c9bs.png)
+
+- 代码压缩
+![代码压缩配置](http://i13.tietuku.com/1498a3e36a670525s.png)
