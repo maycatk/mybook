@@ -17,4 +17,9 @@
 ```>npm install nej-g```
 在项目目录增加```deploy```
 在目录下运行```nej-init```
-生成一个配置
+生成一个配置文件
+```> nej-build```
+实现代码合并压缩打包
+
+- 打包配置
+![打包配置](http://i13.tietuku.com/c1ebffb9e9a5fa02s.png)
