@@ -393,8 +393,18 @@
 
 - flex
 
-```html
+> 默认等高
 
+```css
+.parent{
+display:flex;}
+.left{
+    width:100px;
+    margin-right:20px;
+}
+.right{
+    flex:1;
+}
 ```
 
 
