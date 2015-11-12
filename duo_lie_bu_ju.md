@@ -166,8 +166,51 @@
 </html>
 ```
 
+### 不定宽+自适应
 
+- float+overflow
 
+```css
+.left{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    background: red;
+}
+.right{
+    overflow: hidden;
+    /*ie6不支持*/
+    background: blue;
+}
+```
+
+- table
+
+```css
+.parent{
+    display: table;
+    width: 100%;
+    /*实现布局优先，加速table渲染*/
+
+}
+.right{
+    background: blue;
+
+}
+.left,.right{
+    display: table-cell;    
+}
+.left{
+    width:0.1%;
+    <!-- 可以不定宽 -->
+    padding-right: 20px;
+    background: red;
+}
+.left p{
+    width:200px;
+    <!-- left由内容决定宽度 -->
+}
+```
 
 
 
