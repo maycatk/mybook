@@ -408,9 +408,12 @@ display:flex;}
 ```
 - float
 
+> 伪等高，兼容性
+
 ```css
 .parent{
     overflow:hidden;
+    /*截到最高的高度*/
 }
 .left,.right{
     padding-bottom:9999px;
