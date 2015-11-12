@@ -406,7 +406,25 @@ display:flex;}
     flex:1;
 }
 ```
+- float
 
+```css
+.parent{
+    overflow:hidden;
+}
+.left,.right{
+    padding-bottom:9999px;
+    margin-bottom:-9999px;
+    /*用margin截掉padding*/
+}
+.left{
+    float:left;
+    width:100px;
+}
+.right{
+    overflow:hidden;
+}
+```
 
 
 ## 课后讨论
