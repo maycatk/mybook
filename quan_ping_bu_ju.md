@@ -126,5 +126,25 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 	</div>
 ```
 ```css
-
+html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
+.parent{display: flex;flex-direction:column;} /*列布局*/
+.top{/*height: 10%;*/background-color: red;}
+.bottom{/*height: 5%;*/background-color: grey;}
+.middle{flex:1;background-color: pink;display: flex;}
+/*没设置方向还是默认水平方向排列*/
+.left{
+	/*width: 20%;*/
+	background-color: #fefefe;
+}
+.right{
+	flex:1;
+	overflow: auto;
+	background-color: #ededed;
+}
+.right .inner{
+	min-height: 1000px; 
+}
+/*IE9及以下*/
 ```
+> 去掉百分比默认自适应
+
