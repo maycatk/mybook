@@ -23,7 +23,8 @@ html结构
 		<div class="top">top</div>
 		<div class="left">left</div>
 		
-		<div class="right"><div class="inner">right</div>
+		<div class="right">
+		<div class="inner">right</div>
             <!-- 添加内容滚动 -->
         </div>
 		<div class="bottom">bottom</div>
