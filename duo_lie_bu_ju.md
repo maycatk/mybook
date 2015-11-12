@@ -328,7 +328,39 @@
 
 
 ```html
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>testhtml</title>
+	<style type="text/css">
+*{
+	margin:0;
+	padding: 0;
+}
+.parent{
+	display: flex;
+}
+.coulumn{
+	flex:1;
+	background-color: pink;
+}
+.coulumn+.coulumn{
+	/*一个coulumn下面的column*/
+	margin-left: 20px;
+}
+/* 除了浏览器兼容性差 其他很完美 */
+	</style>
+</head>
+<body>
+	<div class="parent">
+	    <div class="coulumn"><p>1</p></div>
+	    <div class="coulumn"><p>2</p></div>
+	    <div class="coulumn"><p>3</p></div>
+	    <div class="coulumn"><p>4</p></div>
+	</div>
+</body>
+</html>
 ```
 
 
