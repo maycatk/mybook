@@ -44,6 +44,7 @@
    * [版本管理](ban_ben_guan_li.md)
        * [分支模型](fen_zhi_mo_xing.md)
        * [Git](git.md)
+   * 技术选型
 * [Web前端开发实践](practicemd.md)
 * [markdown语法说明](markdown.md)
 
