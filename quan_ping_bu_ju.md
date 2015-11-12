@@ -16,6 +16,13 @@
 
 ### position
 
-```html
+html结构
 
+```html
+<div class="parent">
+		<div class="top">top</div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+		<div class="bottom">bottom</div>
+	</div>
 ```
