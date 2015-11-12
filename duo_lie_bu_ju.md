@@ -437,7 +437,52 @@ display:flex;}
 
 ![格子](http://img0.ph.126.net/5XU_Ds_5SRehh_15MCbCjQ==/2450802622237686522.png)
 
-
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>box4</title>
+<style type="text/css">
+.container{
+    height: 333px;
+    width: 333px;
+    /*假定宽高*/
+    display: flex;
+    flex-direction:column;
+}
+.row{
+    display: flex;
+    flex:1;
+}
+.row+.row{
+    margin-top: 10px;
+}
+.cell{
+    flex:1;
+    background-color: blue;
+}
+.cell+.cell{
+    margin-left: 10px;
+}
+ 
+</style>
+ 
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+    <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+    </div>
+</div>
+</body>
+</html>
+```
 
 
 ---
