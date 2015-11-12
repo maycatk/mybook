@@ -36,4 +36,4 @@
 ![代码压缩配置](http://i13.tietuku.com/1498a3e36a670525s.png)
 
 - 代码合并
-![代码he'bing](http://i13.tietuku.com/ad25730961f49532t.jpg)
+![代码合并](http://i13.tietuku.com/ad25730961f49532t.jpg)
