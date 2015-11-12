@@ -13,4 +13,18 @@
         - 选择合适的图片格式（PNG小图标JPG:banner色彩；）
         - 压缩图片
     - css值缩写
-    
+    - 省略值为0的单位
+- 颜色值最短表示
+    - 16进制缩写
+- css选择器合并
+- 文件压缩
+   - YUI Compressor
+   - cssmin
+
+## 页面性能
+
+css放head
+
+js放body底部
+
+- 减少标签数量
