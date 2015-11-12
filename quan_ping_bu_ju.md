@@ -100,7 +100,8 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 }
 /*IE9及以下*/
 ```
-
+---
+定高定宽换成百分比
 
 
 
