@@ -17,3 +17,4 @@
 ```>npm install nej-g```
 在项目目录增加```deploy```
 在目录下运行```nej-init```
+生成一个配置
