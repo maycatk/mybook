@@ -148,3 +148,5 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 ```
 > 去掉百分比默认自适应
 
+### 方案对比
+
