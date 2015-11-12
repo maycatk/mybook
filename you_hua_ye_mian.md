@@ -35,3 +35,8 @@ js放body底部
   - filter
   - border-radius
   - gradients
+- 图片设置宽高
+- 尽量用css实现
+- 可读性可维护性
+  - 规范
+  - 语义化
