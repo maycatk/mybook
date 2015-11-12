@@ -377,6 +377,7 @@
 }
 .right{
     background: blue;
+    /*padding是显示背景的*/
 }
 .left,.right{
     display: table-cell;    
