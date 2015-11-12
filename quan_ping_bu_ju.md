@@ -61,3 +61,28 @@ tml,body,.parent{height: 100%;overflow: hidden;}
 
 /*IE6不兼容用HACK*/
 ```
+### flex布局
+
+html结构
+
+```html
+<div class="parent">
+		<div class="top">top</div>
+		<div class="middle">
+			<div class="left">left</div>
+			<div class="right"></div>
+		</div>
+		<div class="bottom">bottom</div>
+	</div>
+```
+
+
+css 结构
+
+```css
+
+```
+
+
+
+
