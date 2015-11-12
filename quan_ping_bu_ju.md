@@ -112,8 +112,8 @@ html,body,.parent{height: 100%;overflow: hidden;margin: 0;padding: 0;}
 
 ![例题](http://i13.tietuku.com/cc606b1e20543413s.png)
 
-- flex
-- grid 
+- flex  性能较差
+- grid  方案还未确定
 
 ####flex
 
